@@ -130,7 +130,7 @@ li {
     list-style: inside;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     body {
         width: 100%;
     }
@@ -214,6 +214,46 @@ li {
 
 }
 
+
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .principal {
+        width: 90%;
+    }
+    
+    main {
+        width: 100%;
+    }
+
+    picture > img {
+        width: 80%;
+    }
+
+    iframe {
+        width: 100%;
+        padding: 10px;
+    }
+
+    li {
+        padding-left: 5%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 425px) {
     body {
         overflow-x: hidden;
@@ -289,41 +329,3 @@ li {
 
 }
 
-@media (max-width: 768px) {
-
-    body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-    header {
-        width: 100%;
-    }
-    main {
-        width: 100%;
-    }
-    .principal {
-        width: 90%;
-    }
-    
-    main {
-        width: 100%;
-    }
-
-    picture > img {
-        width: 80%;
-    }
-
-    iframe {
-        width: 100%;
-        padding: 10px;
-    }
-
-    li {
-        padding-left: 5%;
-    }
-
-    footer {
-        width: 100%;
-    }
-
-}
